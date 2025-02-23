@@ -8,8 +8,8 @@ const API_PATH = import.meta.env.VITE_API_PATH;
 function App() {
   const [isAuth, setIsAuth] = useState(false);
   const [account, setAccount] = useState({
-    username: "a2321934@hotmail.com",
-    password: "asdrty123850"
+    username: "test@hotmail.com",
+    password: "123456"
   })
 
   const handleInpoutChange = (e) => {
